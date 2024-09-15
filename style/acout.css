@@ -17,6 +17,9 @@ body{
     align-items: center;
     justify-content: center;
 }
+.centrarP{
+    padding-left: 30px;
+}
 .borde{
     border: solid;
 }
