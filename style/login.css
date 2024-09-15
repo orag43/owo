@@ -1,0 +1,65 @@
+main{
+    display: flex;
+    justify-content:center;
+    align-items: end;
+    padding: 80px;
+    background-color: beige;
+}
+
+.borde{
+    border: solid 8px;
+    border-radius: 30px;
+    background-color: gray;
+}
+.Timg{
+    width: 100px;
+    padding-top: 30px;
+}
+.centrar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.correccionC{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.caja{
+    width: 400px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid;
+}
+.Copiacaja{
+    width: 400px;
+    height: 600px;
+}
+button{
+    border-radius: 20px;
+    background-color: aquamarine;
+    border:azure;
+    width: 130px;
+    height: 60px;
+    cursor: pointer;
+}
+button:hover{
+    background-color:mediumblue;
+}
+.Cbotones{
+    margin: 10px;
+}
+.eleccion{
+    display: flex;
+}
+.linearB{
+    display: flex;
+}
+input:not(input[type="checkbox"]){
+    border-radius: 20px;
+    width: 300px;
+    height: 50px;   
+}
+

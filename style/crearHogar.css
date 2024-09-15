@@ -1,0 +1,47 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.logo{
+    border-radius: 30px;
+    height: 80px;
+}
+.borde{
+    border: solid;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.fotoPerfil{
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    border:solid;
+}
+.margenTop{
+    margin: 20px;
+}
+
+
+
+
+
+main{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.caja{
+    width: 900px;
+    height: 900px;
+}
+.cajaInterna{
+    margin: 20px;
+}
+h4{
+    font-size: medium;
+    
+}

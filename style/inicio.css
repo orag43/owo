@@ -1,0 +1,50 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.borde{
+    border: 5px solid;
+}
+.tamañoLogo{
+    width: 200px;
+    border-radius: 30px;
+}
+.logo{
+    border-radius: 30px;
+    margin: 30px;
+}
+.inicial{
+    width: 20%;
+}
+.buscador{
+    width: 60%;
+}
+.inicio{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    border-radius: 0px 0px 30px 30px;
+}
+.info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.espacioQue{
+    height: 450px;
+    border-radius: 0px 0px 30px 30px;
+}
+.colorInicio{
+    background-color:rgb(167, 243, 208);
+}
+.colorInfo{
+    background-color: rgb(169, 204, 227);
+}
+.TamañoTexto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid;
+    width: 400px;
+    height:200px;
+}
