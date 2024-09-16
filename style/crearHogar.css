@@ -58,12 +58,12 @@ input::placeholder{
     text-align: center;
 }
 .caja{
-    width: 1000px;
-    height: 900px;
+    width: 70%;
+    height: 1900px;
 }
 .cajaInterna{
     margin: 20px;
-    width: 400px;  
+    width: 45%;  
 }
 h4{
     font-size: medium;
@@ -75,8 +75,9 @@ h4{
 
 /* aca abajo va todo lo de estructura */
 
+
 .tamañoEstructura{
-    width: 400px;
+    width: 45%;
     margin: 20px;
 }
 .estructura{
@@ -84,7 +85,12 @@ h4{
     top: 25px;
     border-radius: 30px;
     margin: 25px;
-    width: 350px;
-    height: 350px;
+    width: 90%;
+    height: auto;
     background-color: rgb(243, 243, 243);
+}
+.imgEstructura{
+    border-radius: 30px;
+    width: 100%;
+    height: auto;
 }
