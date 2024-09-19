@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="/owo/style/crearHogar.css">
+    <script src="/owo/script/crearHogar.js"></script>
 </head>
 <body>
     <header>
@@ -21,10 +22,6 @@
         </div>
     </header>
 
-
-
-
-
     <main>
         <div class="borde caja colorPerfil flexR">
             <div class="cajaInterna borde">
@@ -40,24 +37,70 @@
                     </div>
                     <div>
                         <h4>ingrese la direccion:</h4>
-                        <input type="text" placeholder="el conquistador 111">
+                        <input type="text" pl aceholder="el conquistador 111">
                     </div>
                     <div>
-                        <h4>selecciones u tipo de hogar</h4>
+                        <h4>selecciones tipo de hogar</h4>
+                        <select name="" id="tipoHogar" onchange="mostrarCampos()">
+                            <option selected disabled>Elige una tipo de hogar</option>
+                            <option value="casa">casa</option>
+                            <option value="departamento">departamento</option>
+                        </select>
+                    </div>
+                    <div class="opcionCasa">
+                        <h4>cantidad de casas</h4>
+                        <input type="number"placeholder="1111">
+                    </div>
+                    <div class="opcionDepartamento">
+                        <h4>Cantidad de torres:</h4>
+                        <input id="cantidadTorres" type="number" placeholder="1111" oninput="generarCamposPisos()">
+                    </div>
+                    <div id="contenedorDepartamentos" class="opcionDepartamento">
+                        <h4>Cantidad de departamentos en torre:</h4>
+                        <input type="number" placeholder="1111">
+                    </div>
+                    <div class="contenedorPiso">
+                        <h4>Cantidad de departamentos por piso</h4>
+                        <div id="camposPisos"></div> <!-- Contenedor dinámico para los inputs -->
+                    </div>
+                    <div class="flexGastos">
+                        <h4>se administraran gastos somunes</h4>
+                        <input type="checkbox">
+                    </div>
+                    <div>
+                        <h4>que empresa de electricidad manejan los hogares</h4>
                         <select name="" id="">
-                            <option value="">casa</option>
-                            <option value="">departamento</option>
+                            <option value=""selected disabled>elija una empresa de electricidad</option>
+                            <option value="">Enel</option>
+                            <option value="">CGE</option>
+                            <option value="">Chilectra</option>
+                            <option value="">Chilquinta</option>
+                            <option value="">Conafe</option>
+                            <option value="">Saesa</option>
+                            <option value="">Frontel</option>
+                            <option value="">Edelaysen</option>
+                            <option value="">Edelmag</option>
                         </select>
                     </div>
                     <div>
-                        <h4>cantidad de torres:</h4>
-                        <input type="number"placeholder="1111">
+                        <h4>que emoreswa de aguas maneja los hogares</h4>
+                        <select name="" id="">
+                            <option value=""selected disabled>elija una emoresa de aguas</option>
+                            <option value="">Aguas Andinas</option>
+                            <option value="">Essal</option>
+                            <option value="">Esval</option>
+                            <option value="">Aguas del Altiplano</option>
+                            <option value="">Sacyr Agua</option>
+                            <option value="">Aguas Chañar</option>
+
+                        </select>
                     </div>
                     <div>
                         <h1>por ahora es solo eso</h1>
                     </div>
                 </div>
             </div>
+            <!-- esto es lo de la derecha -->
             <div class="tamañoEstructura borde">
                 <div>
                     <h3>aqui tengo planeado poner una foto dependiendo de la estructura que elija el tonto weon</h3>

@@ -7,7 +7,9 @@ body{
 
 /* aqui va la creacion de hogares */
 
-
+.opcionCasa, .opcionDepartamento, .contenedorPiso {
+    display: none;
+}
 .logo{
     border-radius: 30px;
     height: 80px;
@@ -19,6 +21,10 @@ body{
     display: flex;
     justify-content: space-between;
 }
+.flexGastos{
+    display: flex;
+    align-items: center;
+}   
 .flex{
     display: flex;
     align-items: center;
@@ -47,7 +53,7 @@ main{
     align-items: center;
     justify-content: center;
 }
-input{
+input:not(input[type="number"]):not(input[type="checkbox"]){
     border-radius: 10px;
     height: 30px;
     width: 200px;
