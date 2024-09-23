@@ -37,7 +37,7 @@
                     </div>
                     <div>
                         <h4>ingrese la direccion:</h4>
-                        <input type="text" pl aceholder="el conquistador 111">
+                        <input type="text" placeholder="el conquistador 111">
                     </div>
                     <div>
                         <h4>selecciones tipo de hogar</h4>
@@ -53,7 +53,10 @@
                     </div>
                     <div class="opcionDepartamento">
                         <h4>Cantidad de torres:</h4>
-                        <input id="cantidadTorres" type="number" placeholder="1111" oninput="generarCamposPisos()">
+                        <button type="button" onclick="cambiarValor(-1)">-</button>
+                        <input id="cantidadTorres" type="number" placeholder="1111" value="0" oninput="generarCamposPisos()">
+                        <button type="button" onclick="cambiarValor(1)">+</button>
+
                     </div>
                     <div id="contenedorDepartamentos" class="opcionDepartamento">
                         <h4>Cantidad de departamentos en torre:</h4>
@@ -64,7 +67,7 @@
                         <div id="camposPisos"></div> <!-- Contenedor dinámico para los inputs -->
                     </div>
                     <div class="flexGastos">
-                        <h4>se administraran gastos somunes</h4>
+                        <h4>se administraran gastos comunes</h4>
                         <input type="checkbox">
                     </div>
                     <div>
@@ -102,11 +105,11 @@
             </div>
             <!-- esto es lo de la derecha -->
             <div class="tamañoEstructura borde">
-                <div>
-                    <h3>aqui tengo planeado poner una foto dependiendo de la estructura que elija el tonto weon</h3>
-                </div>
                 <div class="estructura contenidoEstructura">
                     <div>
+                        <h3>aqui tengo planeado poner una foto dependiendo de la estructura que elija el tonto weon</h3>
+                    </div>
+                    <div class="estructura colorMovible">
                         <img class="imgEstructura" src="/owo/imagen/logo.jpg" alt="">
                     </div>
                 </div>

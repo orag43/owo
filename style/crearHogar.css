@@ -90,9 +90,11 @@ h4{
     position: sticky;
     top: 25px;
     border-radius: 30px;
-    margin: 25px;
+    margin: 20px;
     width: 90%;
     height: auto;
+}
+.colorMovible{
     background-color: rgb(243, 243, 243);
 }
 .imgEstructura{

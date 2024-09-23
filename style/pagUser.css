@@ -1,0 +1,19 @@
+.boxPrincipal{
+    width: 90%;
+    height: 100%;
+    background-color: aquamarine;
+    border: solid;
+}
+.boxContenedor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.boxEstadisticas{
+    flex: 1 1 400px; /* Controla el crecimiento y el tamaño de los elementos */
+    margin: 10px;
+    padding: 20px;
+    background-color: lightblue;
+    text-align: center;
+}

@@ -13,6 +13,22 @@ function mostrarCampos() {
         document.querySelector('.opcionDepartamento').style.display = 'block';
     }
 }
+function cambiarValor(incremento) {
+    const inputTorres = document.getElementById('cantidadTorres');
+    let valorActual = parseInt(inputTorres.value);
+
+    // Verificar si el valor es un número
+    if (isNaN(valorActual)) {
+        valorActual = 0;
+    }
+
+    // Actualizar el valor, asegurando que no baje de 0
+    valorActual = Math.max(0, valorActual + incremento);
+    inputTorres.value = valorActual;
+
+    // Llamar a la función para generar campos
+    generarCamposPisos();
+}
 function generarCamposPisos() {
     const cantidadTorres = document.getElementById('cantidadTorres').value;
     const contenedorPisos = document.getElementById('camposPisos');
