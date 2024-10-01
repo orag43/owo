@@ -11,9 +11,15 @@
     flex-wrap: wrap;
 }
 .boxEstadisticas{
-    flex: 1 1 400px; /* Controla el crecimiento y el tamaño de los elementos */
+    flex: 1 1 400px;
     margin: 10px;
     padding: 20px;
     background-color: lightblue;
     text-align: center;
 }
+
+
+
+
+
+
