@@ -3,7 +3,8 @@ main{
     justify-content:center;
     align-items: end;
     padding: 80px;
-    background-color: beige;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
 }
 input::placeholder{
     text-align: center;
@@ -15,11 +16,13 @@ input:not(input[type="checkbox"]){
     width: 350px;
     text-align: center;
 }
-
+.titulo{
+    padding-top: 20px;
+}
 .borde{
-    border: solid 8px;
-    border-radius: 30px;
-    background-color: gray;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10%/5%;
+    background-color: white;
 }
 .Timg{
     width: 100px;
@@ -47,16 +50,33 @@ input:not(input[type="checkbox"]){
     width: 400px;
     height: 600px;
 }
-button{
+.buttonAceptar{
+    width: 150px;
+    height:60px;
     border-radius: 20px;
-    background-color: aquamarine;
-    border:azure;
-    width: 130px;
-    height: 60px;
-    cursor: pointer;
+    padding: 10px 20px;
+    background-color: #87CEEB;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color: #FFFFFF;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease-in-out;
+}
+.bottonCancelar{
+    width: 150px;
+    height:60px;
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-color: rgba(248, 79, 79, 0.973);
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color: #FFFFFF;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease-in-out;
 }
 button:hover{
-    background-color:mediumblue;
+    background-color: #dcda72;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 .Cbotones{
     margin: 10px;
@@ -72,4 +92,10 @@ input:not(input[type="checkbox"]){
     width: 300px;
     height: 50px;   
 }
-
+h1{
+    font-weight: 800;
+    color: rgba(52, 152, 219, 1);
+}
+h3{
+    font-size: 25px;
+}

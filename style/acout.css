@@ -3,6 +3,8 @@ body{
     align-items: center;
     justify-content: center;
     margin: 50px;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
 }
 .caja{
     width: 500px;
@@ -11,6 +13,13 @@ body{
 .cajita{
     width: 450px;
     height: 750px;
+}
+h1{
+    font-weight: 800;
+    color: rgba(52, 152, 219, 1);
+}
+h3{
+    font-size: 25px;
 }
 .centrar{
     display: flex;
@@ -23,7 +32,7 @@ body{
 .borde{
     border: solid;
 }
-button{
+.buttonAceptar{
     width: 150px;
     height:60px;
     border-radius: 20px;
@@ -35,12 +44,21 @@ button{
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     transition: background-color 0.3s ease-in-out;
 }
-button:hover {
-    background-color: #66CCCC;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+.bottonCancelar{
+    width: 150px;
+    height:60px;
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-color: rgba(248, 79, 79, 0.973);
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color: #FFFFFF;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease-in-out;
 }
-h3{
-    font-size: 25px;
+button:hover {
+    background-color: #dcda72;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 input[type="date"]{
     border-radius: 20px;
@@ -66,6 +84,7 @@ input::placeholder{
 }
 
 .colorCaja{
-    background-color: rgb(141, 255, 255);
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 10%/5%;
 }
